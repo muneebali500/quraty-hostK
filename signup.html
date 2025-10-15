@@ -27,12 +27,21 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/globals.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
     <section class="log-section flex-center min-vh-100">
-      <div class="login-container p-5 rounded-24 text-center">
+      <div
+        class="login-container p-5 rounded-24 text-center"
+        data-animate="zoomIn"
+        data-animate-delay="200"
+      >
         <div class="login-header mb-4">
           <figure class="mx-auto mb-4">
             <img
@@ -121,5 +130,7 @@
         </form>
       </div>
     </section>
+
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

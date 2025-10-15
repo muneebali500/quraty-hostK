@@ -3,7 +3,6 @@ function initializeSidebar() {
   const mobileToggle = document.querySelector(".mobile-toggle");
   const sidebar = document.querySelector(".sidebar");
   const sidebarClose = document.querySelector(".sidebar-close");
-  const sidebarLinks = document.querySelectorAll(".sidebar-nav .nav-link");
 
   // Mobile toggle
   if (mobileToggle) {

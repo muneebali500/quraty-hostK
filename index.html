@@ -27,11 +27,16 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/globals.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
-    <header class="py-5 px-3">
+    <header class="py-5 px-3" data-animate="fadeIn" data-animate-delay="400">
       <div class="main-container">
         <div class="flex-center">
           <span
@@ -50,20 +55,38 @@
     </header>
 
     <section class="hero-section section-padding">
-      <div class="main-container">
+      <div class="main-container pt-5">
         <div class="row g-5 align-items-center mt-5">
           <div class="col-lg-7 mb-4 mb-lg-0">
-            <h1 class="hero-heading">
+            <h1
+              class="hero-heading"
+              data-animate="fadeInDown"
+              data-animate-delay="200"
+            >
               تتبع أسعار الذهب في الوقت الفعلي <span>استثمر بثقة</span>
             </h1>
-            <p class="lead text-white-50 mt-4 mb-5 fs-1">
+            <p
+              class="lead text-white-50 mt-4 mb-5 fs-1"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
               ابق في صدارة السوق من خلال تحديثات أسعار الذهب الحية والرسوم
               البيانية التفاعلية ورؤى الخبراء - كل ذلك في لوحة تحكم واحدة أنيقة
               وقوية مصممة للمستثمرين الأذكياء.
             </p>
-            <button class="button primary-btn rounded-pill">انشاء حساب</button>
+            <button
+              class="button primary-btn rounded-pill"
+              data-animate="fadeInUp"
+              data-animate-delay="400"
+            >
+              انشاء حساب
+            </button>
 
-            <div class="d-flex gap-4 align-items-center mt-5">
+            <div
+              class="d-flex gap-4 align-items-center mt-5"
+              data-animate="fadeInRight"
+              data-animate-delay="500"
+            >
               <ul class="d-flex">
                 <li
                   style="
@@ -108,7 +131,11 @@
             </div>
           </div>
 
-          <div class="col-lg-5 hero-image-container">
+          <div
+            class="col-lg-5 hero-image-container"
+            data-animate="fadeInLeft"
+            data-animate-delay="400"
+          >
             <img
               src="assets/images/gold-1.png"
               alt="Stack of Gold Bars"
@@ -122,16 +149,29 @@
 
     <section class="features-section section-padding">
       <div class="main-container text-center">
-        <h4 class="section-subheading">ملاح</h4>
-        <h2 class="section-heading">ميزاتنا الأساسية</h2>
+        <h4
+          class="section-subheading"
+          data-animate="fadeInDown"
+          data-animate-delay="200"
+        >
+          ملاح
+        </h4>
+        <h2
+          class="section-heading"
+          data-animate="fadeInUp"
+          data-animate-delay="300"
+        >
+          ميزاتنا الأساسية
+        </h2>
 
         <ul
-          class="row g-2 align-items-center mt-5 justify-content-center position-relative"
+          class="row g-4 align-items-center mt-5 justify-content-center position-relative"
         >
-          <!-- البطاقة 1 -->
-          <li class="col-md-4">
+          <li class="col-lg-4 col-md-6">
             <div
               class="feature-box box-gradient border-r-gradient rounded-24 bg-lite text-end p-5 h-100"
+              data-animate="fadeInLeft"
+              data-animate-delay="400"
             >
               <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
                 <i class="fa-solid fa-user-tie text-dark"></i>
@@ -143,12 +183,13 @@
             </div>
           </li>
 
-          <li class="col-md-4"></li>
+          <li class="d-none d-lg-block col-md-4"></li>
 
-          <!-- البطاقة 2 -->
-          <li class="col-md-4">
+          <li class="col-lg-4 col-md-6">
             <div
               class="feature-box box-gradient border-l-gradient rounded-16 bg-lite text-end p-5 h-100"
+              data-animate="fadeInRight"
+              data-animate-delay="400"
             >
               <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
                 <i class="fa-solid fa-chart-line text-dark"></i>
@@ -162,10 +203,11 @@
             </div>
           </li>
 
-          <!-- البطاقة 3 -->
-          <li class="col-md-4">
+          <li class="col-lg-4 col-md-6">
             <div
               class="feature-box box-gradient border-r-gradient rounded-24 bg-lite text-end p-5 h-100"
+              data-animate="fadeInLeft"
+              data-animate-delay="500"
             >
               <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
                 <i class="fa-solid fa-display text-dark"></i>
@@ -179,12 +221,13 @@
             </div>
           </li>
 
-          <li class="col-md-4"></li>
+          <li class="d-none d-lg-block col-md-4"></li>
 
-          <!-- البطاقة 4 -->
-          <li class="col-md-4">
+          <li class="col-lg-4 col-md-6">
             <div
               class="feature-box box-gradient border-l-gradient rounded-16 bg-lite text-end p-5 h-100"
+              data-animate="fadeInRight"
+              data-animate-delay="500"
             >
               <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
                 <i class="fa-solid fa-bell text-dark"></i>
@@ -197,10 +240,11 @@
             </div>
           </li>
 
-          <!-- الصورة الوسطى -->
           <div
             class="col-lg-4 d-none d-lg-block position-absolute top-50"
             style="transform: translateY(-50%)"
+            data-animate="fadeIn"
+            data-animate-delay="900"
           >
             <figure class="gold-stack-image-container">
               <img
@@ -217,11 +261,27 @@
 
     <section class="gold-prices-section section-padding pt-0">
       <div class="main-container text-center">
-        <p class="section-subheading mx-auto text-uppercase">الاسعار</p>
-        <h2 class="section-heading text-white">سعر الدهب اليوم</h2>
+        <p
+          class="section-subheading mx-auto text-uppercase"
+          data-animate="fadeInDown"
+          data-animate-delay="200"
+        >
+          الاسعار
+        </p>
+        <h2
+          class="section-heading text-white"
+          data-animate="fadeInUp"
+          data-animate-delay="300"
+        >
+          سعر الدهب اليوم
+        </h2>
 
         <div class="table-responsive mt-5">
-          <table class="table gold-price-table text-white mx-auto">
+          <table
+            class="table gold-price-table text-white mx-auto"
+            data-animate="zoomIn"
+            data-animate-delay="200"
+          >
             <thead>
               <tr>
                 <th>عملة</th>
@@ -321,14 +381,30 @@
 
     <section class="calculator-section section-padding">
       <div class="main-container text-center">
-        <p class="section-subheading mx-auto text-uppercase">الاسعار</p>
-        <h2 class="section-heading text-white mb-5">حساب سعر الذهب</h2>
+        <p
+          class="section-subheading mx-auto text-uppercase"
+          data-animate="fadeInUp"
+          data-animate-delay="200"
+        >
+          الاسعار
+        </p>
+        <h2
+          class="section-heading text-white mb-5"
+          data-animate="fadeInUp"
+          data-animate-delay="300"
+        >
+          حساب سعر الذهب
+        </h2>
 
         <div class="row justify-content-center bg-lite px-4 py-5 rounded-24">
           <form
             class="gold-calculator-form d-flex flex-wrap align-items-center gap-5 p-4"
           >
-            <div class="flex-grow-1">
+            <div
+              class="flex-grow-1"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
               <input
                 type="text"
                 class="form-control gold-input text-end p-3 rounded-16"
@@ -336,7 +412,11 @@
               />
             </div>
 
-            <div class="flex-grow-1">
+            <div
+              class="flex-grow-1"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
               <input
                 type="text"
                 class="form-control gold-input text-end p-3 rounded-16"
@@ -344,7 +424,11 @@
               />
             </div>
 
-            <div class="flex-grow-1">
+            <div
+              class="flex-grow-1"
+              data-animate="fadeInUp"
+              data-animate-delay="400"
+            >
               <input
                 type="text"
                 class="form-control gold-input text-end p-3 rounded-16"
@@ -352,7 +436,11 @@
               />
             </div>
 
-            <div style="min-width: 120px">
+            <div
+              style="min-width: 120px"
+              data-animate="fadeInUp"
+              data-animate-delay="500"
+            >
               <button
                 type="submit"
                 class="button primary-btn bg-white rounded-24 w-100 text-dark"
@@ -365,6 +453,8 @@
 
           <div
             class="result-display mt-4 fs-1 fw-bold text-center gradient-text"
+            data-animate="fadeInUp"
+            data-animate-delay="600"
           >
             = <span class="me-2">93.250.67 دولار</span>
           </div>
@@ -373,7 +463,11 @@
     </section>
 
     <footer>
-      <div class="main-container">
+      <div
+        class="main-container"
+        data-animate="fadeInUp"
+        data-animate-delay="200"
+      >
         <div class="row g-4">
           <div class="col-lg-5 mt-0">
             <div class="d-flex align-items-center mb-4">
@@ -437,21 +531,21 @@
                   >
                 </li>
                 <li>
-                  <a href="pricing.html"
+                  <a href="calculator.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >حاسبة الذهب</a
                   >
                 </li>
                 <li>
-                  <a href="terms.html"
+                  <a href="pricing.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >اسعار الذهب</a
                   >
                 </li>
                 <li>
-                  <a href="privacy-policy.html"
+                  <a href="comparison.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >مقارنة العيارات</a
@@ -463,14 +557,21 @@
               <h4 class="nav-title">روابط اخري</h4>
               <ul class="clr-gray">
                 <li>
-                  <a href="about.html"
+                  <a href="contact.html"
+                    ><span class="ms-2"
+                      ><img src="assets/images/two-arrow.svg" alt="" /></span
+                    >تواصل معنا</a
+                  >
+                </li>
+                <li>
+                  <a href="blog.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >المقالات</a
                   >
                 </li>
                 <li>
-                  <a href="pricing.html"
+                  <a href="privacy-policy.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >سياسة الخصوصية</a
@@ -489,15 +590,15 @@
               <h4 class="nav-title">تواصل معنا</h4>
               <ul class="clr-gray">
                 <li>
-                  <a href="#" class="d-flex gap-3 align-items-center"
-                    ><i class="fa-solid fa-location-dot clr-primary"></i> شارع
+                  <div class="d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-location-dot clr-primary"></i> شارع
                     النزهة امام دار الدفاع الجوي, عمارات السعوديه، محافظة
-                    القاهرة .</a
-                  >
+                    القاهرة .
+                  </div>
                 </li>
                 <li>
                   <a
-                    href="tel:(414) 687 - 5892"
+                    href="tel:+1019453861"
                     class="d-flex gap-3 align-items-center"
                     ><i class="fa-solid fa-phone clr-primary"></i> +101 945
                     3861</a
@@ -505,7 +606,7 @@
                 </li>
                 <li>
                   <a
-                    href="mailto:contact@company.com"
+                    href="mailto:example@example.com"
                     class="d-flex gap-3 align-items-center"
                     ><i class="fa-solid fa-envelope clr-primary"></i>
                     example@example.com</a
@@ -529,5 +630,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

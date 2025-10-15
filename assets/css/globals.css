@@ -223,18 +223,12 @@ section {
 
 /* Top + Left border gradient */
 .border-r-gradient::before {
-  background: linear-gradient(225deg, #ffa100, transparent 20%);
+  background: linear-gradient(225deg, #ffa20089, transparent 20%);
 }
 
 /* Top + Right border gradient */
 .border-l-gradient::before {
-  background: linear-gradient(140deg, #ffa100, transparent 30%);
-}
-
-.border-gradient {
-  border: 2.3px solid;
-  border-image: linear-gradient(225deg, #2a1e3f, #d7e9e9, #2a1e3f);
-  border-image-slice: 1;
+  background: linear-gradient(140deg, #ffa20089, transparent 30%);
 }
 
 /* //////////////////// HELPER CLASSES ////////////////////// */

@@ -27,11 +27,16 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/globals.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
-    <header class="py-5 px-3">
+    <header class="py-5 px-3" data-animate="fadeIn" data-animate-delay="200">
       <div class="main-container">
         <div class="flex-center">
           <span
@@ -53,8 +58,18 @@
       <div class="main-container">
         <div class="row">
           <div class="content-wrap">
-            <h1 class="section-heading text-center mb-4">من نحن ؟</h1>
-            <nav aria-label="breadcrumb">
+            <h1
+              class="section-heading text-center mb-4"
+              data-animate="fadeInUp"
+              data-animate-delay="100"
+            >
+              من نحن ؟
+            </h1>
+            <nav
+              aria-label="breadcrumb"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
               <ol class="breadcrumb d-flex gap-1 justify-content-center">
                 <li class="breadcrumb-item">
                   <a
@@ -80,9 +95,25 @@
         <div class="row g-4">
           <div class="col-lg-6">
             <div class="d-flex flex-column justify-content-center h-100">
-              <h4 class="section-subheading">عنا</h4>
-              <h2 class="section-heading">من نحن ؟</h2>
-              <p class="desc fs-1">
+              <h4
+                class="section-subheading"
+                data-animate="fadeInUp"
+                data-animate-delay="100"
+              >
+                عنا
+              </h4>
+              <h2
+                class="section-heading"
+                data-animate="fadeInUp"
+                data-animate-delay="200"
+              >
+                من نحن ؟
+              </h2>
+              <p
+                class="desc fs-1"
+                data-animate="fadeInUp"
+                data-animate-delay="300"
+              >
                 قيراطي ليس مجرد موقع يعرض أرقامًا جامدة، بل هو أداة تفاعلية
                 تواكب المستخدم أينما كان، على مدار الساعة. تم تصميمه ليكون
                 بسيطًا وسهل الاستخدام، بحيث يمكن لأي شخص الوصول إلى المعلومة
@@ -94,7 +125,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <figure>
+            <figure data-animate="fadeInUp" data-animate-delay="200">
               <img
                 src="assets/images/gold-3.png"
                 alt="Gold placed"
@@ -107,8 +138,378 @@
       </div>
     </section>
 
-    <footer>
+    <section class="features-section section-padding">
+      <div class="main-container text-center">
+        <h4
+          class="section-subheading"
+          data-animate="fadeInDown"
+          data-animate-delay="200"
+        >
+          ملاح
+        </h4>
+        <h2
+          class="section-heading"
+          data-animate="fadeInUp"
+          data-animate-delay="300"
+        >
+          ميزاتنا الأساسية
+        </h2>
+
+        <ul
+          class="row g-4 align-items-center mt-5 justify-content-center position-relative"
+        >
+          <li class="col-lg-4 col-md-6">
+            <div
+              class="feature-box box-gradient border-r-gradient rounded-24 bg-lite text-end p-5 h-100"
+              data-animate="fadeInLeft"
+              data-animate-delay="400"
+            >
+              <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
+                <i class="fa-solid fa-user-tie text-dark"></i>
+              </span>
+              <p class="desc fs-2 feature-text">
+                <span class="text-white fw-semibold">رؤى الخبراء : </span>
+                تحليلات موجزة وتوصيات مبنية على بيانات السوق لتثبيت قراراتك.
+              </p>
+            </div>
+          </li>
+
+          <li class="d-none d-lg-block col-md-4"></li>
+
+          <li class="col-lg-4 col-md-6">
+            <div
+              class="feature-box box-gradient border-l-gradient rounded-16 bg-lite text-end p-5 h-100"
+              data-animate="fadeInRight"
+              data-animate-delay="400"
+            >
+              <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
+                <i class="fa-solid fa-chart-line text-dark"></i>
+              </span>
+              <p class="desc fs-2 feature-text">
+                <span class="text-white fw-semibold"
+                  >التحليلات في الوقت الفعلي :
+                </span>
+                اكتساب رؤى قابلة للتنفيذ لحظة-بلحظة عبر مؤشرات الأداء المباشرة.
+              </p>
+            </div>
+          </li>
+
+          <li class="col-lg-4 col-md-6">
+            <div
+              class="feature-box box-gradient border-r-gradient rounded-24 bg-lite text-end p-5 h-100"
+              data-animate="fadeInLeft"
+              data-animate-delay="500"
+            >
+              <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
+                <i class="fa-solid fa-display text-dark"></i>
+              </span>
+              <p class="desc fs-2 feature-text">
+                <span class="text-white fw-semibold"
+                  >لوحة معلومات تفاعلية :
+                </span>
+                رسوم وواجهات ديناميكية تسهِّل تتبّع الأسعار والمقارنات بسرعة.
+              </p>
+            </div>
+          </li>
+
+          <li class="d-none d-lg-block col-md-4"></li>
+
+          <li class="col-lg-4 col-md-6">
+            <div
+              class="feature-box box-gradient border-l-gradient rounded-16 bg-lite text-end p-5 h-100"
+              data-animate="fadeInRight"
+              data-animate-delay="500"
+            >
+              <span class="bulb-icon flex-center rounded-circle ms-auto mb-4">
+                <i class="fa-solid fa-bell text-dark"></i>
+              </span>
+              <p class="desc fs-2 feature-text">
+                <span class="text-white fw-semibold">تنبيهات ذكيّة : </span>
+                إشعارات فورية عند بلوغ سعر الذهب نقاط الدخول أو الخروج التي
+                تحددها.
+              </p>
+            </div>
+          </li>
+
+          <div
+            class="col-lg-4 d-none d-lg-block position-absolute top-50"
+            style="transform: translateY(-50%)"
+            data-animate="fadeIn"
+            data-animate-delay="900"
+          >
+            <figure class="gold-stack-image-container">
+              <img
+                src="assets/images/gold-2.png"
+                alt="Stack of Gold Bars"
+                loading="lazy"
+                style="width: 80%"
+              />
+            </figure>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <section class="articles-section section-padding bg-lite">
       <div class="main-container">
+        <h4 class="section-subheding text-center">مقالات</h4>
+        <h2 class="section-heading text-center">اخر المقالات</h2>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="article-card"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
+              <figure
+                class="article-image-container rounded-14 p-4 overflow-hidden"
+              >
+                <img
+                  src="assets/images/gold-2.png"
+                  alt="Investment Gold Bars"
+                  loading="lazy"
+                  class="img-fluid"
+                />
+              </figure>
+              <div class="article-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="article-title text-white mb-2">استثمار الذهب</h4>
+                  <p class="article-date clr-gray mb-2 fs-4">22 مارس 2025</p>
+                </div>
+                <p class="article-summary clr-gray mb-4 fs-2 lh-1">
+                  في هذا المقال سنتعرف على كيفية استثمار الذهب هذا العام.
+                </p>
+                <a
+                  href="#"
+                  class="button primary-btn w-100 d-inline-block text-center"
+                  >قراءة المزيد</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="article-card"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
+              <figure
+                class="article-image-container rounded-14 p-4 overflow-hidden"
+              >
+                <img
+                  src="assets/images/gold-2.png"
+                  alt="Investment Gold Bars"
+                  loading="lazy"
+                  class="img-fluid"
+                />
+              </figure>
+              <div class="article-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="article-title text-white mb-2">استثمار الذهب</h4>
+                  <p class="article-date clr-gray mb-2 fs-4">22 مارس 2025</p>
+                </div>
+                <p class="article-summary clr-gray mb-4 fs-2 lh-1">
+                  في هذا المقال سنتعرف على كيفية استثمار الذهب هذا العام.
+                </p>
+                <a
+                  href="#"
+                  class="button primary-btn w-100 d-inline-block text-center"
+                  >قراءة المزيد</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="article-card"
+              data-animate="fadeInUp"
+              data-animate-delay="100"
+            >
+              <figure
+                class="article-image-container rounded-14 p-4 overflow-hidden"
+              >
+                <img
+                  src="assets/images/gold-2.png"
+                  alt="Investment Gold Bars"
+                  loading="lazy"
+                  class="img-fluid"
+                />
+              </figure>
+              <div class="article-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="article-title text-white mb-2">استثمار الذهب</h4>
+                  <p class="article-date clr-gray mb-2 fs-4">22 مارس 2025</p>
+                </div>
+                <p class="article-summary clr-gray mb-4 fs-2 lh-1">
+                  في هذا المقال سنتعرف على كيفية استثمار الذهب هذا العام.
+                </p>
+                <a
+                  href="#"
+                  class="button primary-btn w-100 d-inline-block text-center"
+                  >قراءة المزيد</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="article-card"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
+              <figure
+                class="article-image-container rounded-14 p-4 overflow-hidden"
+              >
+                <img
+                  src="assets/images/gold-2.png"
+                  alt="Investment Gold Bars"
+                  loading="lazy"
+                  class="img-fluid"
+                />
+              </figure>
+              <div class="article-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="article-title text-white mb-2">استثمار الذهب</h4>
+                  <p class="article-date clr-gray mb-2 fs-4">22 مارس 2025</p>
+                </div>
+                <p class="article-summary clr-gray mb-4 fs-2 lh-1">
+                  في هذا المقال سنتعرف على كيفية استثمار الذهب هذا العام.
+                </p>
+                <a
+                  href="#"
+                  class="button primary-btn w-100 d-inline-block text-center"
+                  >قراءة المزيد</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-padding">
+      <div class="main-container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6">
+            <h4
+              class="section-subheading"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
+              الاسعار
+            </h4>
+            <h2
+              class="section-heading"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
+              تواصل معنا الان
+            </h2>
+
+            <form
+              class="contact-form p-4 rounded-16 h-100"
+              data-animate="fadeInRight"
+              data-animate-delay="400"
+            >
+              <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control gold-input rounded-14 p-3 text-end"
+                    placeholder="ادخل الاسم الاول"
+                    dir="rtl"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control gold-input rounded-14 p-3 text-end"
+                    placeholder="ادخل الاسم الاخير"
+                    dir="rtl"
+                  />
+                </div>
+              </div>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  class="form-control gold-input rounded-14 p-3 text-end"
+                  placeholder="ادخل البريد الالكتروني"
+                  dir="rtl"
+                />
+              </div>
+              <div class="mb-4">
+                <textarea
+                  class="form-control gold-input rounded-14 p-3 text-end"
+                  rows="5"
+                  placeholder="اكتب رسالتك هنا"
+                  dir="rtl"
+                ></textarea>
+              </div>
+              <button type="submit" class="button primary-btn">
+                ارسل الان
+              </button>
+            </form>
+          </div>
+
+          <div class="col-lg-6">
+            <figure
+              class="contact-image-card rounded-16 overflow-hidden"
+              data-animate="fadeInLeft"
+              data-animate-delay="400"
+            >
+              <img
+                src="assets/images/man-pointing.png"
+                alt="Man in yellow hoodie pointing"
+                class="cover"
+              />
+            </figure>
+
+            <ul
+              class="row g-4 mt-3 rounded-16 pb-3 px-4"
+              style="background-color: #a6a6a638"
+              data-animate="fadeInUp"
+              data-animate-delay="500"
+            >
+              <li class="col-4">
+                <div class="contact-info-card">
+                  <div class="icon-wrapper flex-center rounded-circle mb-3">
+                    <i class="fa-solid fa-envelope gradient-text fs-3"></i>
+                  </div>
+                  <h5 class="mb-2 fs-2">البريد الالكتروني</h5>
+                  <p class="clr-gray fs-2">srli21@gmail.com</p>
+                </div>
+              </li>
+              <li class="col-4">
+                <div class="contact-info-card">
+                  <div class="icon-wrapper flex-center rounded-circle mb-3">
+                    <i class="fa-solid fa-phone gradient-text fs-3"></i>
+                  </div>
+                  <h5 class="mb-2 fs-2">الهاتف</h5>
+                  <p class="clr-gray fs-2">+101 934 3312</p>
+                </div>
+              </li>
+              <li class="col-4">
+                <div class="contact-info-card">
+                  <div class="icon-wrapper flex-center rounded-circle mb-3">
+                    <i class="fa-solid fa-location-dot gradient-text fs-3"></i>
+                  </div>
+                  <h5 class="mb-2 fs-2">الموقع</h5>
+                  <p class="clr-gray fs-2">12 ش طه حسين الدور الخامس</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        class="main-container"
+        data-animate="fadeInUp"
+        data-animate-delay="200"
+      >
         <div class="row g-4">
           <div class="col-lg-5 mt-0">
             <div class="d-flex align-items-center mb-4">
@@ -172,21 +573,21 @@
                   >
                 </li>
                 <li>
-                  <a href="pricing.html"
+                  <a href="calculator.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >حاسبة الذهب</a
                   >
                 </li>
                 <li>
-                  <a href="terms.html"
+                  <a href="pricing.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >اسعار الذهب</a
                   >
                 </li>
                 <li>
-                  <a href="privacy-policy.html"
+                  <a href="comparison.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >مقارنة العيارات</a
@@ -198,14 +599,21 @@
               <h4 class="nav-title">روابط اخري</h4>
               <ul class="clr-gray">
                 <li>
-                  <a href="about.html"
+                  <a href="contact.html"
+                    ><span class="ms-2"
+                      ><img src="assets/images/two-arrow.svg" alt="" /></span
+                    >تواصل معنا</a
+                  >
+                </li>
+                <li>
+                  <a href="blog.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >المقالات</a
                   >
                 </li>
                 <li>
-                  <a href="pricing.html"
+                  <a href="privacy-policy.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >سياسة الخصوصية</a
@@ -224,15 +632,15 @@
               <h4 class="nav-title">تواصل معنا</h4>
               <ul class="clr-gray">
                 <li>
-                  <a href="#" class="d-flex gap-3 align-items-center"
-                    ><i class="fa-solid fa-location-dot clr-primary"></i> شارع
+                  <div class="d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-location-dot clr-primary"></i> شارع
                     النزهة امام دار الدفاع الجوي, عمارات السعوديه، محافظة
-                    القاهرة .</a
-                  >
+                    القاهرة .
+                  </div>
                 </li>
                 <li>
                   <a
-                    href="tel:(414) 687 - 5892"
+                    href="tel:+1019453861"
                     class="d-flex gap-3 align-items-center"
                     ><i class="fa-solid fa-phone clr-primary"></i> +101 945
                     3861</a
@@ -240,7 +648,7 @@
                 </li>
                 <li>
                   <a
-                    href="mailto:contact@company.com"
+                    href="mailto:example@example.com"
                     class="d-flex gap-3 align-items-center"
                     ><i class="fa-solid fa-envelope clr-primary"></i>
                     example@example.com</a
@@ -264,5 +672,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

@@ -119,12 +119,6 @@
   margin-right: 25rem;
 }
 
-/* Header Styles */
-#dashb-header .breadcrumb-item:first-child:hover a {
-  color: #03b424;
-  transition: var(--transition-base);
-}
-
 #dashb-header .input-search .icon {
   position: absolute;
   top: 50%;
@@ -166,7 +160,7 @@
 }
 
 .custom-table {
-  background-color: transparent;
+  background: transparent !important;
   color: #e0e0e0;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -177,14 +171,14 @@
   border-color: #333333;
   vertical-align: middle;
   font-size: 2.4rem;
-  background-color: transparent;
+  background: transparent;
 }
 .custom-table thead th {
   border-bottom: 2px solid #434040;
   font-weight: 500;
   color: var(--clr-gray);
 }
-.custom-table tr td {
+.custom-table tr:not(:last-child) td {
   border-bottom: 2px solid #ffffff1c;
 }
 .status-completed {

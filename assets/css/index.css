@@ -30,6 +30,17 @@ header {
   transform: translate(-50%, -60%);
 }
 
+#hero-common::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35%;
+  height: 1px;
+  background: linear-gradient(40deg, #ffffff00, #ecbf42, #66666600);
+}
+
 #hero-common .spread-gradient {
   position: absolute;
   bottom: 0;
@@ -83,21 +94,29 @@ footer .social-icon {
   height: 40px;
   color: #1c1c1c;
   font-size: 1.8rem;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 footer .social-icon:hover {
-  background-color: #ecc95c;
-}
-
-footer .social-icon .fa-youtube {
-  color: red !important;
+  transform: translateY(-3px);
 }
 
 footer .copyright-text {
   border-top: 2.33px solid transparent;
   border-image: linear-gradient(#28252f, #ffffffb8, #201c27);
   border-image-slice: 1;
+}
+
+.separator {
+  height: 1.33px;
+  width: 40%;
+  margin: 3rem auto;
+  background: linear-gradient(
+    10deg,
+    #2a1e3f60,
+    #d7e9e930,
+    #2a1e3f60
+  ) !important;
 }
 
 .features-section .feature-box {

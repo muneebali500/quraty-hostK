@@ -27,11 +27,16 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/globals.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
-    <header class="py-5 px-3">
+    <header class="py-5 px-3" data-animate="fadeIn" data-animate-delay="200">
       <div class="main-container">
         <div class="flex-center">
           <span
@@ -53,8 +58,18 @@
       <div class="main-container">
         <div class="row">
           <div class="content-wrap">
-            <h1 class="section-heading text-center mb-4">تواصل معنا</h1>
-            <nav aria-label="breadcrumb">
+            <h1
+              class="section-heading text-center mb-4"
+              data-animate="fadeInUp"
+              data-animate-delay="100"
+            >
+              تواصل معنا
+            </h1>
+            <nav
+              aria-label="breadcrumb"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
               <ol class="breadcrumb d-flex gap-1 justify-content-center">
                 <li class="breadcrumb-item">
                   <a
@@ -79,10 +94,26 @@
       <div class="main-container">
         <div class="row g-4 align-items-stretch">
           <div class="col-lg-6">
-            <h4 class="section-subheading">الاسعار</h4>
-            <h2 class="section-heading">تواصل معنا الان</h2>
+            <h4
+              class="section-subheading"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
+              الاسعار
+            </h4>
+            <h2
+              class="section-heading"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
+              تواصل معنا الان
+            </h2>
 
-            <form class="contact-form p-4 rounded-16 h-100">
+            <form
+              class="contact-form p-4 rounded-16 h-100"
+              data-animate="fadeInRight"
+              data-animate-delay="400"
+            >
               <div class="row g-3 mb-4">
                 <div class="col-md-6">
                   <input
@@ -124,7 +155,11 @@
           </div>
 
           <div class="col-lg-6">
-            <figure class="contact-image-card rounded-16 overflow-hidden">
+            <figure
+              class="contact-image-card rounded-16 overflow-hidden"
+              data-animate="fadeInLeft"
+              data-animate-delay="400"
+            >
               <img
                 src="assets/images/man-pointing.png"
                 alt="Man in yellow hoodie pointing"
@@ -135,8 +170,10 @@
             <ul
               class="row g-4 mt-3 rounded-16 pb-3 px-4"
               style="background-color: #a6a6a638"
+              data-animate="fadeInUp"
+              data-animate-delay="500"
             >
-              <li class="col-lg-4 col-md-12">
+              <li class="col-4">
                 <div class="contact-info-card">
                   <div class="icon-wrapper flex-center rounded-circle mb-3">
                     <i class="fa-solid fa-envelope gradient-text fs-3"></i>
@@ -145,7 +182,7 @@
                   <p class="clr-gray fs-2">srli21@gmail.com</p>
                 </div>
               </li>
-              <li class="col-lg-4 col-md-6">
+              <li class="col-4">
                 <div class="contact-info-card">
                   <div class="icon-wrapper flex-center rounded-circle mb-3">
                     <i class="fa-solid fa-phone gradient-text fs-3"></i>
@@ -154,7 +191,7 @@
                   <p class="clr-gray fs-2">+101 934 3312</p>
                 </div>
               </li>
-              <li class="col-lg-4 col-md-6">
+              <li class="col-4">
                 <div class="contact-info-card">
                   <div class="icon-wrapper flex-center rounded-circle mb-3">
                     <i class="fa-solid fa-location-dot gradient-text fs-3"></i>
@@ -170,7 +207,11 @@
     </section>
 
     <footer>
-      <div class="main-container">
+      <div
+        class="main-container"
+        data-animate="fadeInUp"
+        data-animate-delay="200"
+      >
         <div class="row g-4">
           <div class="col-lg-5 mt-0">
             <div class="d-flex align-items-center mb-4">
@@ -234,21 +275,21 @@
                   >
                 </li>
                 <li>
-                  <a href="pricing.html"
+                  <a href="calculator.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >حاسبة الذهب</a
                   >
                 </li>
                 <li>
-                  <a href="terms.html"
+                  <a href="pricing.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >اسعار الذهب</a
                   >
                 </li>
                 <li>
-                  <a href="privacy-policy.html"
+                  <a href="comparison.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >مقارنة العيارات</a
@@ -260,14 +301,21 @@
               <h4 class="nav-title">روابط اخري</h4>
               <ul class="clr-gray">
                 <li>
-                  <a href="about.html"
+                  <a href="contact.html"
+                    ><span class="ms-2"
+                      ><img src="assets/images/two-arrow.svg" alt="" /></span
+                    >تواصل معنا</a
+                  >
+                </li>
+                <li>
+                  <a href="blog.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >المقالات</a
                   >
                 </li>
                 <li>
-                  <a href="pricing.html"
+                  <a href="privacy-policy.html"
                     ><span class="ms-2"
                       ><img src="assets/images/two-arrow.svg" alt="" /></span
                     >سياسة الخصوصية</a
@@ -286,15 +334,15 @@
               <h4 class="nav-title">تواصل معنا</h4>
               <ul class="clr-gray">
                 <li>
-                  <a href="#" class="d-flex gap-3 align-items-center"
-                    ><i class="fa-solid fa-location-dot clr-primary"></i> شارع
+                  <div class="d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-location-dot clr-primary"></i> شارع
                     النزهة امام دار الدفاع الجوي, عمارات السعوديه، محافظة
-                    القاهرة .</a
-                  >
+                    القاهرة .
+                  </div>
                 </li>
                 <li>
                   <a
-                    href="tel:(414) 687 - 5892"
+                    href="tel:+1019453861"
                     class="d-flex gap-3 align-items-center"
                     ><i class="fa-solid fa-phone clr-primary"></i> +101 945
                     3861</a
@@ -302,7 +350,7 @@
                 </li>
                 <li>
                   <a
-                    href="mailto:contact@company.com"
+                    href="mailto:example@example.com"
                     class="d-flex gap-3 align-items-center"
                     ><i class="fa-solid fa-envelope clr-primary"></i>
                     example@example.com</a
@@ -326,5 +374,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

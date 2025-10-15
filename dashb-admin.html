@@ -27,6 +27,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/globals.css" />
     <link rel="stylesheet" href="assets/css/dashboard.css" />
   </head>
@@ -77,40 +82,37 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link d-flex align-items-center active" href="main.html">
-            <i class="fas fa-chart-bar"></i>
+          <a class="nav-link d-flex align-items-center" href="dashb-user.html">
+            <i class="fas fa-chart-line"></i>
             لوحه القيادة
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link d-flex align-items-center" href="products.html">
-            <i class="fas fa-cogs"></i>
+          <a
+            class="nav-link d-flex align-items-center active"
+            href="dashb-admin.html"
+          >
+            <i class="fas fa-list-alt"></i>
             جميع المعاملات
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link d-flex align-items-center" href="domains.html">
-            <i class="fas fa-globe"></i>
-            النطاقات
+          <a class="nav-link d-flex align-items-center" href="">
+            <i class="fas fa-dollar-sign"></i>
+            الاسعار
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link d-flex align-items-center" href="cart.html">
-            <i class="fas fa-credit-card"></i>
-            طرق الدفع
+          <a class="nav-link d-flex align-items-center" href="">
+            <i class="fas fa-users"></i>
+            المستخدمين
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link d-flex align-items-center" href="contact.html">
-            <i class="fas fa-phone"></i>
-            اتصل بنا
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link d-flex align-items-center" href="blogs.html">
-            <i class="fas fa-blog"></i>
-            المدونات
+          <a class="nav-link d-flex align-items-center" href="">
+            <i class="fas fa-newspaper"></i>
+            المقالات
           </a>
         </li>
       </ul>
@@ -122,7 +124,7 @@
     </nav>
 
     <main id="dashb-main">
-      <header id="dashb-header">
+      <header id="dashb-header" data-animate="fadeIn" data-animate-delay="900">
         <div class="content p-4 px-md-5 py-4">
           <div class="row">
             <div
@@ -187,6 +189,8 @@
             <div
               class="d-flex gap-4 bg-lite align-items-center p-4 rounded-5 h-100"
               style="border: 2px solid #ffffff33"
+              data-animate="fadeInDown"
+              data-animate-delay="200"
             >
               <figure
                 class="p-3 rounded-4 flex-center"
@@ -214,8 +218,10 @@
           </div>
           <div class="col-md-6">
             <div
-              class="d-flex gap-4 bg-lite align-items-center p-4 rounded-5 h-100"
+              class="d-flex gap-4 bg-lite align-items-center p-4 rounded-5 h-100 position-relative overflow-hidden"
               style="border: 2px solid #ffffff33"
+              data-animate="fadeInDown"
+              data-animate-delay="200"
             >
               <figure
                 class="p-3 rounded-4 flex-center"
@@ -238,6 +244,13 @@
                 </h3>
                 <p class="clr-gray fs-2">مقالات لديك</p>
               </div>
+
+              <img
+                src="assets/images/vector-admin-dashb.png"
+                alt="Pattern"
+                loading="lazy"
+                class="w-50 position-absolute start-0"
+              />
             </div>
           </div>
         </div>
@@ -246,16 +259,36 @@
       <section class="section-padding px-4 px-md-5 py-4">
         <div class="row">
           <div class="col-md-6 mb-4">
-            <h2 class="fs-1 mb-3">اسعار الذهب</h2>
-            <div class="card p-4 rounded-5">
+            <h2
+              class="fs-1 mb-3"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
+              اسعار الذهب
+            </h2>
+            <div
+              class="card p-4 rounded-5"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
               <p class="clr-gray fs-2">تحليل الاسعار</p>
               <canvas id="goldPriceChart"></canvas>
             </div>
           </div>
 
           <div class="col-md-6 mb-4">
-            <h2 class="fs-1 mb-3">تحليلات زيارة المستخدمين</h2>
-            <div class="card p-4 rounded-5">
+            <h2
+              class="fs-1 mb-3"
+              data-animate="fadeInUp"
+              data-animate-delay="200"
+            >
+              تحليلات زيارة المستخدمين
+            </h2>
+            <div
+              class="card p-4 rounded-5"
+              data-animate="fadeInUp"
+              data-animate-delay="300"
+            >
               <p class="clr-gray fs-2">اعداد المستخدمين</p>
               <canvas id="userVisitChart"></canvas>
             </div>
